@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+/* navbar styling starts */
+.my-queen{
+    font-family: 'Quintessential', cursive;
+    font-weight: 600;
+    font-size: 28px;
+}
+.name-navbar{
+    background-color: rgb(148, 148, 92);
+}
+.navbar{
+    top: fixed;
+    }
+    .navbar .nav-item .nav-link{
+        text-decoration: none;
+        
+    }
+    ul li a:hover{
+        text-decoration: underline;
+        
+      }
+    nav.navbar{
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    } 
+    nav a, a.navbar-brand{
+        padding-top: 32px !important;
+        padding-bottom: 32px !important;
+        font-size: 20px;
+    }
+    /* navbar styling ends */
+    .carousel-inner{
+         height: 600px;
+    }
+    /* css for card slider starts */
+    .card{
+       width: 38rem;
+       border-radius: 10px;
+       border:none;
+       box-shadow: 10px 4px 10px rgba(0,0,0,0.6);
+      }
+ 
+    img{
+     width: 100%;
+     border-radius:10px 10px 0 0;
+    }
+    .long-one{
+        background: linear-gradient(45deg, #d9e94c73, #f1f52a41), url(./images/Business.avif);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 100%;
+    }
+    
+    .swiper-container{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+    }
+    .latest{
+        font-weight: 700;
+        margin-top: 100px;
+        
+    }
+    
+ 
+    /* css for card slider ends */
+
+    /* blog-post section starts */
+    .blog-posts{
+        margin-bottom: 120px;
+        margin-top: 120px;
+    }
+    .blog-posts .card {
+        margin-top: 32px;
+        margin-bottom: 32px; 
+        width: 18rem;   
+    }
+    
+    /* blog post section ends */
+
+    /* lower section starts */
+    .last-piece .top-a{
+        text-align: right !important;
+        border-right: 1px solid white;
+        padding: 5px;
+    }
+    .lower-footer{
+        background-color: rgb(148, 148, 92);
+    }
+    /* lower section ends */
+    /* newsletter section starts */
+    .height-100 {
+        height: 100vh
+    }
+    
+    .card-letter {
+        width: 400px;
+        border: none;
+        box-shadow: 3px 3px 5px 9px #eee
+    }
+    /* newsletter section ends */
+    
