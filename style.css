@@ -1,13 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
 /* navbar styling starts */
+
+body{
+    background-color: #C5D1EB;
+}
 .my-queen{
     font-family: 'Quintessential', cursive;
     font-weight: 600;
     font-size: 28px;
 }
 .name-navbar{
-    background-color: rgb(148, 148, 92);
+    background-color: #5A7684; 
+    margin-bottom: 0;  
 }
+
 .navbar{
     top: fixed;
     }
@@ -45,7 +51,7 @@
      border-radius:10px 10px 0 0;
     }
     .long-one{
-        background: linear-gradient(45deg, #d9e94c73, #f1f52a41), url(./images/Business.avif);
+        background-image: url(./images/Business.avif);
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -73,11 +79,16 @@
     .blog-posts{
         margin-bottom: 120px;
         margin-top: 120px;
+        
     }
     .blog-posts .card {
         margin-top: 32px;
         margin-bottom: 32px; 
         width: 18rem;   
+    }
+    .card-text{
+        font-weight: 500;
+
     }
     
     /* blog post section ends */
@@ -89,7 +100,7 @@
         padding: 5px;
     }
     .lower-footer{
-        background-color: rgb(148, 148, 92);
+        background-color: #0B1D51;
     }
     /* lower section ends */
     /* newsletter section starts */
@@ -102,5 +113,14 @@
         border: none;
         box-shadow: 3px 3px 5px 9px #eee
     }
-    /* newsletter section ends */
     
+    /* newsletter section ends */
+
+    /* lists section begins */
+    .category{
+        background-color: #5A7684;
+    }
+    li a{
+        color: black;
+    }
+    /* list section ends */
