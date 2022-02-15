@@ -8,22 +8,25 @@ body{
     font-family: 'Quintessential', cursive;
     font-weight: 600;
     font-size: 28px;
+    color: white;
+}
+.fas{
+    color: white;
 }
 .name-navbar{
-    background-color: #5A7684; 
+    background-color: #845EC2; 
     margin-bottom: 0;  
 }
 
 .navbar{
     top: fixed;
     }
+    
     .navbar .nav-item .nav-link{
-        text-decoration: none;
-        
+        color: white;
     }
-    ul li a:hover{
-        text-decoration: underline;
-        
+    .active{
+        color: white !important;
       }
     nav.navbar{
         padding-top: 0px !important;
@@ -35,6 +38,7 @@ body{
         font-size: 20px;
     }
     /* navbar styling ends */
+
     .carousel-inner{
          height: 600px;
     }
@@ -57,6 +61,7 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
         opacity: 100%;
+       padding-top: 0;
     }
     
     .swiper-container{
@@ -69,7 +74,10 @@ body{
     .latest{
         font-weight: 700;
         margin-top: 100px;
-        
+        padding-top: 20px;   
+    }
+    .latest:hover{
+        color: #B39CD0;
     }
     
  
