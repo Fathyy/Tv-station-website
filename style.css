@@ -43,17 +43,19 @@ body{
          height: 600px;
     }
     /* css for card slider starts */
-    .card{
+
+    .card-1{
        width: 38rem;
        border-radius: 10px;
        border:none;
        box-shadow: 10px 4px 10px rgba(0,0,0,0.6);
       }
  
-    img{
-     width: 100%;
+    .card-1 img{
+     width: 350px;
      border-radius:10px 10px 0 0;
     }
+
     .long-one{
         background-image: url(./images/Business.avif);
         background-attachment: fixed;
@@ -61,7 +63,7 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
         opacity: 100%;
-       padding-top: 0;
+        margin-top: 0;
     }
     
     .swiper-container{
